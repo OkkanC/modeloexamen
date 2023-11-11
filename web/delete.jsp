@@ -35,7 +35,7 @@
              
              ps=conexion.prepareStatement("delete  from libro where codigo_libro="+id);
              ps.executeUpdate();
-             response.sendRedirect("home.jsp");
+             response.sendRedirect("index.jsp");
              
              
              

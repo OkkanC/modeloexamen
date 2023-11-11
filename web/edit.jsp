@@ -114,7 +114,7 @@
         ps=conexion.prepareStatement("update libro set nombre='"+nombre+"',fecha_lanzamiento='"+fecha_lanzamiento+"',autor='"+autor+"',tipo_pasta_id='"+tipo_pasta_id+"' where codigo_libro="+id);
         
         ps.executeUpdate();
-        response.sendRedirect("home.jsp");
+        response.sendRedirect("index.jsp");
         
         }
 %>
